@@ -26,3 +26,30 @@ function moveDodgerLeft() {
         moveDodgerRight();
     }
   })
+
+  // function moveUp() {
+  //   const upNumbers = dodger.style.bottom.replace("px", "");
+  //   const bottom = parseInt(upNumbers, 10);
+  //   if (bottom < 400) {
+  //     dodger.style.bottom = `${bottom+1}px`
+  //   }
+  // }
+
+  // document.addEventListener("keydown", function (e) {
+  //   if (e.key === "ArrowUp"){
+  //   moveUp()}
+  // })
+
+  // function moveDown() {
+  //   const downNumbers = dodger.style.bottom.replace('px', '');
+  //   const down = parseInt(downNumbers, 10);
+  //   if (down >0) {
+  //     dodger.style.bottom = `${down-1}px`
+  //   }
+  // }
+
+  // document.addEventListener('keydown', function (e){
+  //   if (e.key === "ArrowDown") {
+  //     moveDown()
+  //   }
+  // })
